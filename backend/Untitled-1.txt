@@ -1,0 +1,27 @@
+npm run build => frontend
+
+if application is created in react => dist => index.html
+if appliction is created in normal html = > build => index.html
+
+
+
+backend => server.js
+
+required or import  path package
+import path from 'path'
+
+path ko join kr lena
+app.use(express.static(path.join(__dirname, "../frontend/choclate/dist")));
+
+
+and particular route p file ko send krna
+  res.sendFile(path.join(__dirname, "../frontend/choclate/dist/index.html"));
+
+
+  frontend ka path
+  npm run dev
+  add new ternimal
+  backend ka path
+  npm start
+
+  hamesha frontend ki link se hi wesite chalu krna
