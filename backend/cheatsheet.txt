@@ -1,0 +1,12 @@
+model 
+
+1 userModel
+
+  1.name
+  2.email
+  3.password
+  4.cPassword
+  5.number
+
+
+  

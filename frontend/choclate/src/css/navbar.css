@@ -1,0 +1,48 @@
+.navbar {
+  width: 100%;
+  padding-inline: 50px;
+  padding-block: 20px;
+  box-shadow: 1px 1px 14px 0 rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2d006b;
+}
+
+.logo {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #ca9953;
+  text-transform: capitalize;
+}
+
+nav a {
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: 700;
+  text-transform: capitalize;
+  color: #ffffff;
+  margin-right: 20px;
+  transition: color 0.5s ease;
+}
+
+nav a:hover {
+  color: #e9c694;
+}
+
+.icons i {
+  font-size: 24px;
+  margin-right: 26px;
+  color: rgba(255, 255, 255, 0.608);
+  transition: color 0.5s ease;
+}
+.icons i:hover {
+  color: white;
+}
+
+
+.active{
+  text-decoration: underline;
+   color: #e9c694;
+
+}
