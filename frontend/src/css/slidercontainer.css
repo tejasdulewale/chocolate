@@ -1,0 +1,39 @@
+.slidercontainer {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+    background-color: rgb(0, 0, 0);
+  padding-inline: 50px;
+}
+
+.slidercontent {
+  text-align: left;
+}
+.slidercontent h1 {
+  color: white;
+  font-size: 72px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.slidercontent p {
+  color: rgb(102, 100, 100);
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 14px;
+  text-transform: capitalize;
+}
+
+.sliderimage {
+  height: 80%;
+  width: 50%;
+  border-radius: 16px;
+}
+
+.sliderimage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 16px;
+}
