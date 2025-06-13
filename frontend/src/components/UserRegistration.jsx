@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import '../css/userRegistration.css';
+import { Link } from 'react-router-dom';
 
 const UserRegistration = () => {
   const [form, setForm] = useState({
@@ -86,6 +87,7 @@ const UserRegistration = () => {
         <button className="form-button" type="submit">Register</button>
        
       </form>
+    <Link to="/login">already have an account</Link>
       {message && <p className="form-message">{message}</p>}
     </div>
   );

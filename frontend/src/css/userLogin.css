@@ -1,18 +1,20 @@
-body{
+body {
   height: 100vh;
   width: 100%;
-  background-color:hsla(224, 47%, 44%, 0.441);
+  background-color: hsla(224, 47%, 44%, 0.441);
+  margin: 0;
+  font-family: Arial, sans-serif;
 }
 
 .registration-container {
+  margin-block: auto;
   max-width: 400px;
   margin: 40px auto;
   padding: 32px 24px;
   background: #fff;
   border-radius: 10px;
-  box-shadow: 0 2px 16px rgba(0,0,0,0.08);
+  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.08);
 }
-
 
 .registration-container h2 {
   text-align: center;
@@ -69,7 +71,7 @@ body{
   font-weight: 500;
 }
 
-a{
+a {
   text-decoration: none;
-  text-align: center;
+  color: #6b3e26;
 }

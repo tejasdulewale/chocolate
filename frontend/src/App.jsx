@@ -7,7 +7,7 @@ import Contact from './components/Contact'
 import Product from './components/Product'
 import Home from './components/Home'
 import UserRegistration from './components/UserRegistration'
-
+import UserLogin from './components/UserLogin'
 const App = () => {
   return (
     <div>
@@ -18,6 +18,7 @@ const App = () => {
       <Route path='/contact' element={<Contact/>}/>
       <Route path='/product' element={<Product/>}/>
       <Route path='/register' element={<UserRegistration/>}/>
+      <Route path='/login' element={<UserLogin/>}/>
     </Routes>
     </div>
   )
